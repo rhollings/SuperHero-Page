@@ -112,16 +112,13 @@ const displayCharacters = (characters) => {
     const htmlString = characters
         .map((character) => {
             return `
-            <li class="character"><a href="./profile.html?id=${character.id}">
+            <li class="character"><a href="card.html?id=${character.id}">
                 <h2 id="character-name">${character.name}</h2></a>
                  <p id="character-id">id: ${character.id}</p>
                  <img class="character-image" src="${character.image.url}"></img>
 <h3 class="fullname">${character.appearance.gender}</h3>
        
       <h3 class="publisher">${character.biography.publisher}</h3>
-      <button class="btn add-to-fav" data-id=${character.id} onClick="addToFavorites(${character.id})">
-                            Add to favourites
-                        </button>
                         
       </li>
       
@@ -134,3 +131,11 @@ const displayCharacters = (characters) => {
 
 
 document.getElementById('searchBar').addEventListener("keyup", loadCharacters);
+
+/*
+Adds to fav button 
+
+<button class="btn add-to-fav" data-id=${character.id} onClick="addToFavorites(${character.id})">
+                            Add to favourites
+                        </button>
+*/
