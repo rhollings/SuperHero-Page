@@ -1,4 +1,91 @@
 body {
   padding: 0px;
   margin: 0px;
+  background-color: #0077b6;
+}
+
+header {
+  width: 99.3%;
+  height: 7vh;
+  display: flex;
+  padding: 5px;
+  justify-content: space-evenly;
+  background: linear-gradient(to bottom right, #0066cc 0%, #99ccff 100%);
+  background-repeat: no-repeat;
+  font-size: 27px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+/* data representation for the hero */
+main {
+  width: 80%;
+  height: 80vh;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  margin: auto;
+}
+
+main > div {
+  width: 50%;
+  height: 100%;
+}
+
+/* box for hero name */
+#hero-name {
+  height: 15%;
+  font-size: 300%;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+
+/* box for hero image */
+#hero-img {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#hero-img img {
+  height: 95%;
+  width: 95%;
+}
+
+/* box for hero detail */
+#hero-detail {
+  background-color: ;
+  margin-top: 100px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#hero-detail span {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 3px;
+  margin: 2px;
+  background-color: #8ecae6;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: grid;
+  }
+  .white {
+    height: 80vh;
+    width: 95vw;
+  }
+  #hero-detail {
+    width: auto;
+  }
 }
