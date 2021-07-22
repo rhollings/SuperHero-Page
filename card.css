@@ -1,3 +1,4 @@
+/* main thang */
 body {
   padding: 0px;
   margin: 0px;
@@ -20,7 +21,7 @@ header a {
   padding-top: 10px;
 }
 
-/* data representation for the hero */
+/* data representation for char */
 main {
   width: 80%;
   height: 80vh;
@@ -35,7 +36,7 @@ main > div {
   height: 100%;
 }
 
-/* box for hero name */
+/* char name */
 #hero-name {
   height: 15%;
   font-size: 300%;
@@ -44,7 +45,7 @@ main > div {
   color: black;
 }
 
-/* box for hero image */
+/* char image */
 #hero-img {
   height: 100%;
   width: auto;
@@ -58,7 +59,7 @@ main > div {
   width: 95%;
 }
 
-/* box for hero detail */
+/* char details */
 #hero-detail {
   margin-top: 100px;
   height: 600px;
