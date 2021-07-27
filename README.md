@@ -1,7 +1,7 @@
 # SuperHero-Page
 This is website (in the making) about superheros/villians using The SuperHero API
 
-The API website/credit =  https://superheroapi.com/index.html 
+The API source =  https://superheroapi.com/index.html 
 
  https://rhollings.github.io/SuperHero-Page/
 
