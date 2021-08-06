@@ -1,7 +1,7 @@
 /*
 const API_KEY = '3621675444603381';
-const baseURL = 'https://superheroapi.com/api/';
-const myURL = `${baseURL}${API_KEY}/search/${search}`
+const  = 'https://superheroapi.com/api/';
+const  = `${baseURL}${API_KEY}/search/${search}`
 */
 
 const charactersList = document.getElementById('charactersList');
