@@ -1,10 +1,12 @@
 # SuperHero-Page
-This is website (in the making) about superheros/villians using The SuperHero API
+This is website about superheros/villians using The SuperHero API
 
-The API source =  https://superheroapi.com/index.html 
+<a href="https://superheroapi.com/index.html">The API source</a>   👈
 
- https://rhollings.github.io/SuperHero-Page/
- 
+If you liked that one, <a href="https://www.superherodb.com/#">check this</a> one out!! 👈.  
+It is a databse with even more characters from even more worlds 🤩
+
+<a href="https://rhollings.github.io/SuperHero-Page/">Here</a> is my try  👈
 
 
 
