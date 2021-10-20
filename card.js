@@ -1,4 +1,4 @@
-//when page is loaded, it executes function to load teh content based on id received in query params
+//when page is loaded, it executes function to load the content based on id received in query params
 window.addEventListener('load', function (req) {
     //accessing id through query params
     const urlParams = new URLSearchParams(window.location.search);
