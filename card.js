@@ -1,11 +1,11 @@
-//when page is loaded, it executes function to load the content based on id received in query params
+//when page is loaded, it executes function to load teh content based on id received in query params
 window.addEventListener('load', function (req) {
     //accessing id through query params
     const urlParams = new URLSearchParams(window.location.search);
     let id = urlParams.get('id');
 
     let xhr = new XMLHttpRequest();
-    xhr.open('get', `https://superheroapi.com/api.php/3621675444603381/${id}`);
+    xhr.open('get', `https://www.superheroapi.com/api.php/3621675444603381/${id}`);
     xhr.send();
     xhr.onload = searchAndUpdate;
     xhr.onerror = function (err) { console.log(err.responseText); };
