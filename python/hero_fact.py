@@ -1,8 +1,6 @@
 """
 this is a script that calls the 'superhero API' and returns random data
 well rn it only does nightwing, but i will randomize it 
-
-maybe add an example json??
 """
 
 import random
@@ -60,6 +58,8 @@ else:
     print(name, "is part of", comic)
 
 """"
+HOW TO FIX?? 
+
 if birth == "-":
     print(name, "has no recorded birthplace")
 else:
